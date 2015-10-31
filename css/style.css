@@ -1,0 +1,28 @@
+.hero {
+  height: 100vh;
+  text-align: center;
+}
+
+.hero-background {
+  height: 100vh;
+  background: url(../images/london.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.stroke {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 35%;
+}
