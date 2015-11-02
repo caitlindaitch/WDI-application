@@ -2,9 +2,8 @@
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #34282C;
+  background-color: #303030;
 }
-
 
 .hero {
   width: 100%;
@@ -41,13 +40,85 @@ h2 {
   padding-top: 15px;
 }
 
+.description {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .stroke {
   border: 2px solid white;
   padding: 10px;
+}
+
+.blue {
+  color: #5a9fc6;
+}
+
+.light-blue {
+  color: #92d8e4;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.question {
+  font-family: 'crimson text';
+  font-weight: 700;
+  font-style: italic;
+  font-size: 22px;
+  padding-right: 10px;
+  float: left;
 }
 
 .content {
   width: 600px;
   margin: 0 auto;
   color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.introduction {
+  padding: 25px;
+}
+
+.faq {
+  padding: 25px;
+}
+
+.break {
+  width: 75%;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.headshot {
+  float: left;
+  border-radius: 50%;
+  width: 200px;
+  padding: 15px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.contact {
+  background-color: #C0C0C0;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+a {
+  color: #404040;
 }
